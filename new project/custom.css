@@ -41,9 +41,14 @@
    text-align: center;
    margin-bottom: 150px;
 }
-
 .types-content{
    display: flex;
+   justify-content: center;
+}
+.author-main{
+   display: flex;
+   font-size: 40px;
+   padding-bottom: 60px;
    justify-content: center;
 }
 .author{
@@ -52,7 +57,6 @@
    padding-bottom: 60px;
    background-color: #F7F2EA;
    margin-bottom: 150px;
-;
 }
 .author-content{
    display: flex;
@@ -60,7 +64,7 @@
 }
 .title{
    font-size: 40px;
-   margin-bottom: 60px;
+   margin-bottom: 20px;
    text-align: center;
 }
 .author-title{
@@ -73,11 +77,11 @@
    text-align: left;   
    display: block;
 }
-
 .blog-title{
    display: flex;
+   padding-top: 40px;
 }
-.a{
+a{
    text-decoration: none;
 }
 .blog-content{
@@ -85,17 +89,16 @@
    justify-content: space-between;  
 }
 .view{
-   padding: 10px 20px;
+   padding: 18px 25px;
    border: 1px solid black;
    display: flex;
-   align-items: center;
-   margin-left: 50%;
+   justify-content: center;  
 }
 .border{
-   margin-top: 60px; 
+   padding-top: 60px; 
    height: 51px; 
    display: flex;
-   text-align: center;
+   justify-content: center;
 }
 .know-more {
    height: 418px;
@@ -103,19 +106,22 @@
    align-items: center;
    justify-content: space-between;
    background-color: #F7F2EA;
+   margin-top: 150px;
 }
-
-.know-more-content {
+.left{
    display: flex;
-   align-items: center;
-   justify-content: space-between;
+   justify-content: center;
 }
-
 .know-more-content-left {
    width: 50%;
+   display: flex;
+   text-align: center;
 }
-.know-more-content-right {
-   width: 50%;
+.hide{
+   padding-bottom: 65px;
+   display: flex;
+   text-align: center;
+   color: #F7F2EA;
 }
 .join-us {
    display: flex;
@@ -150,6 +156,7 @@ form a {
 }
 .know-more-header{
    text-align: center;
+   padding-bottom: 50px;
 }
 .prior{
    font-size: 40px;
@@ -167,44 +174,24 @@ form a {
    font-size: 35px;
 }
 .priortise-functionality {
-   width: 80%;
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
-.single-heading h2 {
-   margin: 10px 0px;
-   font-size: 25px;
+.priortise-heading{
+   display: flex;
+   justify-content: center;  
+   font-size: 30px;
 }
-.loose-heading h2 {
+.description{
    margin: 10px 0px;
-   font-size: 25px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
 }
-.customer-heading h2 {
-   margin: 10px 0px;
-   font-size: 25px;
-}
-.shipping-heading h2 {
-   margin: 10px 0px;
-   font-size: 25px;
-}
-.single-desc {
-   margin: 10px 0px;
-   font-size: 15px;
-   font-weight: bold;
-}
-.loose-desc {
-   margin: 10px 0px;
-   font-size: 15px;
-   font-weight: bold;
-}
-.customer-desc {
-   margin: 10px 0px;
-   font-size: 15px;
-   font-weight: bold;
-}
-.shipping-desc {
-   margin: 10px 0px;
-   font-size: 15px;
-   font-weight: bold;
+.priortise-img{
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
 }
