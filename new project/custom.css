@@ -195,3 +195,30 @@ form a {
    justify-content: center;
    padding-top: 40px;
 }
+.footer{
+   height: 593px;
+   background-color: #F7F2EA;
+   margin-top: 150px;
+   display: flex;
+   justify-content: space-around;
+}
+.footer-content-third{
+   width: 25%;
+}
+.footer-title{
+   padding-top: 100px;
+   font-size: 24px;
+   padding-bottom: 30px;
+}
+.footer-link{
+   color: black;
+   display: flex;
+   padding-top: 20px;
+}
+.footer-link{
+   text-decoration: none;
+   padding-top: 20px;
+}
+.footer-content-fourht{
+   width: 25%;
+}
